@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Cursed;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+:root {
+    --dark-blue: #1B244A;
+    --rose: #F94F6D;
+    --smoke: #9AABD8;
+    --blue: #0077b6;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--smoke);
+    background-repeat: no-repeat;
+    height: 100%;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    width: 400px;
+    padding: 10px;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    background-color: var(--dark-blue);
+}
+
+.score {
+    background-color: black;
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 80px;
+    color: var(--rose);
+    font-family: "Cursed";
+    padding: 20px 0px 10px 0px;
+    box-shadow: 0px 0px 5px white;
+}
+
+.buttons>* {
+    background: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    color: var(--smoke);
+    border: 1px solid var(--smoke);
+    font-family: "Cursed";
+}
+
+.header{
+    padding: 20px;
+    margin: 20px 0px;
+    font-family: Cursed;
+    letter-spacing: 2px;
+    border-bottom: 2px solid black;
+}
+.btn{
+   padding: 15px 30px;
+   background-color: black;
+   color: var(--smoke);
+   font-weight: bold;
+   margin-top: 20px;
+   text-transform: uppercase;
+   border: none;
+}
+.reset{
+    margin: auto;
+}
